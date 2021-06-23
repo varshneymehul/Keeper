@@ -3,7 +3,7 @@ import Header from "./Header.jsx";
 import Footer from "./Footer.jsx";
 import Note from "./Note.jsx";
 import AddNote from "./AddNote.jsx";
-
+import "../styles.css"
 function App() {
   const [notes, setNotes] = useState([]);
 

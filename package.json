@@ -1,5 +1,5 @@
 {
-  "homepage": "https://keeper-app-react1.herokuapp.com/",
+  "homepage": "https://varshneymehul.github.io/Keeper/",
   "name": "keeper-app",
   "version": "1.0.0",
   "description": "",
@@ -17,6 +17,8 @@
     "typescript": "3.3.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "npm start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
